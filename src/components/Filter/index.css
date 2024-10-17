@@ -1,0 +1,69 @@
+.filterButton {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  background-color: transparent;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+}
+.filterUl {
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.filterLi {
+  width: 100%;
+  margin-bottom: 5px;
+}
+.filterEachHeading {
+  font-size: 16px;
+}
+.filterEachIcon {
+  font-size: 18px;
+  margin-right: 20px;
+  margin-left: 15px;
+  margin-bottom: 3px;
+}
+.filterLink {
+  text-decoration: none;
+}
+.FilterContactUsCard {
+  margin-top: auto;
+  margin-left: 15px;
+  padding: 0;
+}
+.contactUsIconFace {
+  width: 30px;
+  color: #00306e;
+  margin-right: 10px;
+}
+.contactUsIconLink {
+  width: 30px;
+  color: blue;
+  margin-right: 10px;
+  border-radius: 100%;
+}
+.contactUsIconTwitter {
+  width: 30px;
+  color: #3b82f6;
+  margin-right: 10px;
+}
+.contactHead {
+  font-size: 20px;
+}
+.contactUsPara {
+  font-weight: bold;
+}
+@media only screen and (max-width: 965px) {
+  .FilterContactUsCard {
+    display: none;
+  }
+  .filterLi {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+}

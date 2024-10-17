@@ -1,0 +1,109 @@
+.videoDetailsCard {
+  display: flex;
+  font-family: Roboto;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.videoPlayer {
+  width: 100% !important;
+  height: 100% !important;
+}
+.videoDetailsHead {
+  font-size: 18px;
+}
+.videoDetailsViewscard {
+  display: flex;
+  color: #94a3b8;
+}
+.videoDetailsLikesPara {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.LikeIcon {
+  font-size: 18px;
+}
+.videoDetailsLikesCard {
+  display: flex;
+}
+.ViewsAndDaysCard {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.videoDetailsChannelLogo {
+  width: 70px;
+}
+.videoDetailsChannelCard {
+  display: flex;
+  align-items: flex-start;
+}
+.videoDetailsChannelHead {
+  font-size: 18px;
+}
+.channelSubscriberPara {
+  font-size: 13px;
+}
+.channelDiscriptionPara {
+  font-size: 13px;
+}
+.channelDiscriptionParaSmall {
+  display: none;
+}
+.channelDiscriptionCard {
+  margin-left: 10px;
+}
+.videoDetailsCardSmall {
+  display: none;
+}
+.videoDetailsdatePara {
+  margin-left: 10px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 965px) {
+  .channelDiscriptionParaSmall {
+    font-size: 13px;
+    display: flex;
+  }
+  .channelDiscriptionPara {
+    display: none;
+  }
+  .videoDetailsCardSmall {
+    display: flex;
+    font-family: Roboto;
+    min-height: 100vh;
+    width: 100%;
+  }
+  .videoDetailsCard {
+    display: none;
+  }
+  .videoDetailsViewscard {
+    margin-left: 5px;
+  }
+  .videoPlayer {
+    width: 100% !important;
+    height: 60vh !important;
+  }
+  .ViewsAndDaysCard {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .videoDetailsLikesPara {
+    margin-left: 0px;
+    cursor: pointer;
+  }
+  .videoDetailsLikesPara {
+    margin-left: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .videoDetailsChannelLogo {
+    width: 50px;
+  }
+}

@@ -1,0 +1,27 @@
+.gameImg {
+  width: 28vh;
+}
+
+.gameViewPara {
+  font-size: 13px;
+  color: #475569;
+}
+.eachGameCard {
+  height: 46vh;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.eachGameLink {
+  text-decoration: none;
+  font-family: Roboto;
+  color: #1e293b;
+}
+@media only screen and (max-width: 600px) {
+  .gameImg {
+    width: 14vh;
+  }
+  .eachGameCard {
+    height: 28vh;
+    width: 15vh;
+  }
+}

@@ -1,0 +1,50 @@
+.trendingItemCard {
+  display: flex;
+  margin-bottom: 30px;
+  text-decoration: none;
+  margin-right: auto;
+}
+@media only screen and (max-width: 664px) {
+  .trendingItemCard {
+    flex-direction: column;
+    width: 100%;
+    margin-right: 10px;
+    margin-bottom: 30px;
+  }
+  .EachTrendingImg {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 965px) and (min-width: 665px) {
+  .trendingItemCard {
+    flex-direction: column;
+    width: 40vh;
+    margin-right: 10px;
+    margin-bottom: 30px;
+  }
+  .EachTrendingImg {
+    width: 100%;
+  }
+}
+
+.EachTrendingImg {
+  width: 40vh;
+  max-height: 23vh;
+}
+.eachTrendingHead {
+  font-size: 20px;
+  font-family: Roboto;
+}
+.eachItemPublishCard {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  color: #475569;
+}
+.TrendingDatePara {
+  margin-left: 10px;
+}
+
+.eachTrendingPara {
+  margin: 0;
+}

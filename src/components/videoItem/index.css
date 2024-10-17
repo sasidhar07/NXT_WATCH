@@ -1,0 +1,58 @@
+.channel_img {
+  width: 45px;
+  margin-bottom: auto;
+  margin-right: 10px;
+}
+.thumbnail_img_home {
+  width: 100%;
+}
+.eachItemCard {
+  width: 35vh;
+  font-family: Roboto;
+  margin-right: 12px;
+}
+@media only screen and (max-width: 563px) {
+  .eachItemCard {
+    width: 100%;
+  }
+}
+.innerEachItemCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.eachItemTitlePara {
+  font-size: 15px;
+  margin: 0;
+}
+
+.eachItemName {
+  font-size: 14px;
+  margin-top: 8px;
+  color: #475569;
+}
+.ViewsAndDaysCard {
+  font-size: 14px;
+  display: flex;
+
+  margin: 0 !important;
+  color: #475569;
+  padding: 0 !important;
+  align-items: center;
+}
+.viewsPara {
+  margin: 0;
+  margin-right: 15px;
+  padding: 0;
+}
+.DatePara {
+  margin: 0;
+  padding: 0;
+  margin-right: auto;
+}
+.eachItemCardLink {
+  text-decoration: none;
+  color: black;
+}

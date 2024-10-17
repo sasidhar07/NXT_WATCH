@@ -1,0 +1,88 @@
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.homeInput {
+  border: none;
+  color: #64748b !important;
+  outline: none;
+  background-color: transparent;
+  width: 100%;
+}
+.searchIconHome {
+  margin-top: 2px;
+  font-size: 14px;
+  color: #64748b;
+}
+.SearchClear {
+  margin-left: auto;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  color: #64748b;
+}
+.noSearchImg {
+  width: 50vh;
+}
+
+.RetryButton {
+  background-color: #4f46e5;
+  padding: 7px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+}
+.HomeFailureImg {
+  width: 33%;
+  margin-top: 35px;
+}
+.failurePara {
+  margin: 5px;
+}
+.company-logo {
+  width: 20vh;
+}
+.premiumCard {
+  padding: 10px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png');
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.HomeInnerCard {
+  width: 80%;
+}
+.PremiumButton {
+  border: 2px solid #606060;
+  background-color: transparent;
+  outline: none;
+  color: #424242;
+  cursor: pointer;
+  padding: 5px;
+}
+.NoPremiumButton {
+  border: 0;
+  cursor: pointer;
+  background-color: transparent;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+@media only screen and (max-width: 965px) {
+  .HomeInnerCard {
+    width: 100%;
+  }
+}
+.contentToRenderUlList {
+  display: flex;
+  justify-content: space-around;
+}

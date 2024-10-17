@@ -1,0 +1,23 @@
+.gamingCard {
+  width: 80%;
+}
+.gamingIcon {
+  font-size: 25px;
+  color: red;
+}
+.loaderCard {
+  height: 87vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.gamingUlList {
+  display: flex;
+  justify-content: space-around;
+}
+@media only screen and (max-width: 965px) {
+  .gamingCard {
+    width: 100%;
+  }
+}

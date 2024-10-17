@@ -1,0 +1,25 @@
+.trendingCard {
+  width: 80%;
+}
+.trendingIcon {
+  font-size: 25px;
+  color: red;
+}
+
+.trendingEachItemCard {
+  padding: 12px;
+  padding-right: 50px;
+  background-color: #f1f5f9;
+  padding-left: 50px;
+}
+@media only screen and (max-width: 965px) {
+  .trendingCard {
+    width: 100%;
+  }
+  .trendingUlList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+}

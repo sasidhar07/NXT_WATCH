@@ -1,0 +1,35 @@
+.navCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.websiteLogo {
+  width: 17vh;
+}
+.profileLogo {
+  width: 25px;
+  margin-left: 15px;
+}
+.moonLogo {
+  font-size: 20px;
+}
+.moonLogo1 {
+  font-size: 22px;
+  color: white;
+}
+
+.moonButton {
+  background-color: transparent;
+  border: 0;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.hamburgerButton {
+  font-size: 23px;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: 0;
+  margin-top: 5px;
+}

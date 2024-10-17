@@ -1,0 +1,14 @@
+.SavedContainer {
+  display: flex;
+  width: 100%;
+}
+
+.noSavedVideosImg {
+  width: 45%;
+}
+
+.SavedCard {
+  width: 100%;
+  min-height: 93vh;
+  background-color: blue;
+}

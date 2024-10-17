@@ -1,0 +1,52 @@
+.LoginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.LogoImg {
+  width: 50%;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.LoginForm {
+  display: flex;
+  justify-content: center;
+  width: 65%;
+  max-width: 370px;
+  box-shadow: 0px 4px 16px 0px #6f6f6f;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.usernameAndPass {
+  color: #475569;
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-top: 7px;
+  font-weight: bold;
+}
+.UserAndPassInput {
+  padding: 5px;
+  outline: none;
+  border-color: solid 0.5px #475569;
+}
+.ShowPassCard {
+  margin-top: 10px;
+}
+#checkBox {
+  cursor: pointer;
+}
+.loginButton {
+  background-color: #3b82f6;
+  color: #ffffff;
+  border: 0;
+  cursor: pointer;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+.errorPara {
+  color: red;
+}
